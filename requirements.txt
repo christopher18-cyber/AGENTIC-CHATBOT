@@ -4,3 +4,4 @@ langchain-gemini
 python-dotenv
 IPython
 pydantic
+streamlit
