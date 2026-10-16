@@ -7,7 +7,10 @@ authors = [
     { name = "christopher18-cyber", email = "christopheradegoke4@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "langchain-tavily>=0.2.18",
+    "tavily-python>=0.8.5",
+]
 
 [project.scripts]
 agentic-chatbot = "agentic_chatbot:main"
